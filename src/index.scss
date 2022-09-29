@@ -25,6 +25,7 @@ a,
 h3 {
   font-family: $font-family;
   font-size: $font-size;
+  text-shadow: 1px 0px 0.5px grey;
 }
 
 .page {
@@ -39,7 +40,7 @@ h3 {
 
     flex-direction: column;
     border-radius: 3%;
-    box-shadow: 5px 5px 10px #919295;
+    box-shadow: 0px 0px 10px #919295 inset;
   }
 }
 
@@ -87,6 +88,7 @@ h3 {
 .button-follow {
   width: 200px;
   background-color: #1C5EF5;
+  box-shadow: 0px 0px 4px 0.2px #656565 inset;
   color: white;
   font-size: 20px;
   font-weight: $font-bold;
