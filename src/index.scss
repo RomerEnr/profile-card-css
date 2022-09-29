@@ -121,13 +121,11 @@ h3{
 .metric-info {
   @include flex-center();
   flex-direction: column;
-
   p{
     font-weight: $font-bold;
   }
-  
-}
 
-.metric-info h3 {
-  color: #919295;
+  h3 {
+    color: #919295;
+  } 
 }
